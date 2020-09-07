@@ -1,0 +1,11 @@
+body{
+    display: flex;
+} 
+/* flex 하고자 하는  개체 바로위의 태그가 flex가 되어야함*/
+
+.box{
+    background: cyan;
+    width: 300px;
+    height: 300px;
+    color: black;   
+}
