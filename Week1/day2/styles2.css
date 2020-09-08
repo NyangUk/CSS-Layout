@@ -1,0 +1,13 @@
+.wrapper{
+    display:flex;
+    height: 100vh;
+    justify-content: space-around ;  /* flex-direction :horizontal axis(row)  use justyfy-content*/
+    align-items: center; /* another flex-direction :vertical axis(col)  use justyfy-content*/
+
+}
+.box{
+    background: cyan;
+    width: 100px;
+    height: 100px;
+    color: black;   
+}
