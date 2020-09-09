@@ -1,0 +1,22 @@
+.wrapper{
+    display:flex;
+    flex-direction: column; 
+    /* Main-axis == column*/
+    /* Cross-axis == row */
+
+    /* you wnat to control Main-axism , use justify */
+    /* you wnat to control Cross-axism , use aline */
+
+    justify-content: space-around ; /*column*/
+    align-items: stretch;        /*row*/
+    
+    /* If you want to use stretch that you must not set width of box */
+    /* because main axis is column!! */
+    height: 100vh;
+}
+.box{
+    background: yellow;
+    /* width: 100px; */
+    height: 100px;
+    color: black;   
+}
