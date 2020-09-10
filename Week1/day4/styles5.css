@@ -1,0 +1,23 @@
+.wrapper{
+    display:flex;
+    justify-content: space-around ; /*column*/
+    align-content: space-between;
+    height: 100vh;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+/* difference between flex wrap and flex-dirextion */
+/* warp : "reverse" mean  when the width or height changes, the order of movement first changes*/
+/* direction : "reverse" mean sort in descending order*/
+
+/* align-content is setting of cross axis gap property */
+/* justify-content is setting of main axis gap property */
+
+.box{
+    background: gray;
+    width: 100px;
+    height: 100px;
+    color: black;  
+    font-size: 30px; 
+    display: flex;
+}

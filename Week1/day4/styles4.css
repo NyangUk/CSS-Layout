@@ -1,0 +1,28 @@
+.wrapper{
+    display:flex;
+    justify-content: space-around ; /*column*/
+    /* align-items: center; */
+    height: 50vh;
+}
+.box{
+    background: gray;
+    width: 50px;
+    height: 50px;
+    color: black;  
+    font-size: 30px; 
+}
+
+/* You can change cross-axis of only one element setting Using command- align-self */
+/* and change order of element in Css */
+.box:nth-child(1){
+    align-self: flex-end;
+    order: 2;
+}
+.box:nth-child(2){
+    align-self: center;
+    order: 1;
+}
+.box:nth-child(3){
+    align-self: flex-start;
+    order: 0;
+}
