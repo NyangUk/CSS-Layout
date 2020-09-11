@@ -1,0 +1,42 @@
+.wrapper{
+    display:flex;
+    justify-content: space-around ; 
+    height: 100vh;
+}
+
+.box{
+    background: gray;
+    width: 200px;
+    height: 100px;
+    color: black;  
+    font-size: 30px;
+}
+
+.box:nth-child(1){
+    background: red;
+    flex-shrink: 4;
+    flex-grow: 1;
+}
+.box:nth-child(2){
+    background: orange;
+    flex-shrink: 3;
+    flex-grow: 2;
+}
+.box:nth-child(3){
+    background: yellow;
+    flex-shrink: 2;
+    flex-grow: 3;
+}
+.box:nth-child(4){
+    background: green;
+    flex-shrink: 1;
+    flex-grow: 4;
+    
+}
+
+/* flex-shrink and flex-grow are command for child element setting */
+
+/* default -->>>>   flex-shrink 1; flex-grow = 0; */
+
+/* when flex-wrap is 'nowrap' and width of web pae decreases, flex-shrink is to determine how many times the width will be reduced than others */
+/* when width of web page is increases, flex-grow determines how much free space will be shared  */
