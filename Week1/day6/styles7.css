@@ -1,0 +1,18 @@
+.wrapper{
+    display:flex;
+    justify-content: space-around ; 
+    height: 100vh;
+    flex-direction: column;
+}
+
+.box{
+    background: gray;
+    flex-basis: 100px;
+    /*  flex-basis works on main-acixs 
+        if flex-direction is column, flex-basis work width
+        if flex-direction is row,flex-basis work height
+    */
+    height: 100px;
+    color: black;  
+    font-size: 30px;
+}
