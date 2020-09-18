@@ -1,0 +1,20 @@
+.wrapper{
+    display:grid;
+    justify-content: space-around ; 
+    grid-template-columns: 200px 100px 50px; /* dont't use ','*/
+    grid-template-rows: 60px 60px 60px;
+    column-gap: 10px;
+    row-gap: 130px;
+    /* 
+        if you want to change column and row at the same time
+        you can use 'gap'
+    */
+    justify-content: flex-start; /* defualit value of justify-content is 'space-around'*/
+
+}
+
+.box{
+    background: gray;
+    color: black;  
+    font-size: 30px;
+}
