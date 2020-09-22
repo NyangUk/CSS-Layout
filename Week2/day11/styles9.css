@@ -12,6 +12,10 @@ body {
     grid-template-rows: repeat(4,100px);
     justify-content: space-around;
     align-content: center;
+    /* 
+    'content' sets the position of grid and'items' sets the element of grid 
+    */
+    place-content: center space-around;
 }
 
 
