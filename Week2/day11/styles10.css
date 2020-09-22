@@ -4,37 +4,25 @@ body {
 }
 
 .grid{
+    background-color: black;
     display:grid; 
     gap : 10px;
     height: 50vh;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
-    justify-items: center;  /*default is stretch*/
-    align-items: end;       /*default is stretch*/
-    
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+
 }
+
+.item:nth-child(odd){
+    background-color: greenyellow;
+}
+
+.item:nth-child(even){
+    background-color: cornflowerblue;
+}
+
 /* 
-
+when html element over the number of grid element, they have 2 type
+first when height is insufficient, additional elements become minimum height
+second when height is sufficient, additional elements fill the remaining height
 */
-
-.header{
-    background-color: aqua;
-    width: 60px;
-    height: 20px;
-}
-.content{
-    background-color: rgb(93, 173, 46);
-    width: 60px;
-    height: 20px;
-}
-.nav{
-    background-color:blue;
-    width: 60px;
-    height: 20px;
-}
-.footer{
-    background-color: slategrey;
-    width: 60px;
-    height: 20px;
-}
-
